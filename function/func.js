@@ -4,6 +4,8 @@ function greetings(name, lenguange){
         console.log(`Hai ${name} Bagaimana kabarmu`)
     }else if(lenguange == "ENG"){
         console.log(`Hai ${name} How Are You`)
+    }else{
+        console.log("Nothing lenguange");
     }
 }
 
